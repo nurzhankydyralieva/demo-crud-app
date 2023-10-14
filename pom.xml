@@ -115,7 +115,7 @@
 				<version>1.9.10</version>
 				<configuration>
 					<container>
-						<containerId>tomcat10x</containerId>
+						<containerId>tomcat8x</containerId>
 						<type>embedded</type>
 					</container>
 				</configuration>
@@ -126,14 +126,14 @@
 				<version>2.5.0</version>
 				<configuration>
 					<schemaVersion>v2</schemaVersion>
-					<resourceGroup>cloth-shop</resourceGroup>
-					<appName>cloth-shop</appName>
+					<resourceGroup>demo-crud-app</resourceGroup>
+					<appName>demo-crud-app</appName>
 					<pricingTier>P2v2</pricingTier>
 					<region>centralus</region>
 					<runtime>
 						<os>Windows</os>
 						<javaVersion>Java 17</javaVersion>
-						<webContainer>Tomcat 10.0</webContainer>
+						<webContainer>Tomcat 8.5</webContainer>
 					</runtime>
 					<deployment>
 						<resources>
